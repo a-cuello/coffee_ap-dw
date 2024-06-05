@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+header{
+    height: 700px;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+}
+.header_barra{
+    padding: 30px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    margin-right: 20px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.header_texto{
+    margin-left: 40px;
+}
+h1{
+    font-size: 70px;
+    color: #ffffff;
+    position: relative;
+}
+.buy{
+    line-height: 7rem;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 40px;
+    padding: 10px 50px;
+    border-radius: 30px;
+}
+
+.primer{
+    height: 500px;
+    padding: 100px;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.video{
+    position: relative;
+}
+.signo{
+    position: absolute;
+    top: 150px;
+    right: 250px;
+}
+
+.primer_texto{
+    margin: 4rem;
+}
+h3{
+    color:burlywood;
+    font-weight: lighter;
+    font-size: 12px;
+}
+h2{
+    font-size: 30px;
+}
+
+h6{
+    font-size: 15px;
+    font-weight: lighter;
+    margin: 1rem 0rem;
+}
+.text_sec_uno{
+    color: rgb(163, 163, 163);
+}
+.firma{
+    margin: 1rem 0rem;
+}
+
+.segunda{
+    height: 500px;
+    background-color: rgb(194, 150, 78);
+}
